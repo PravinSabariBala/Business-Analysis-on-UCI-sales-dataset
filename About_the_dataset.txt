@@ -1,0 +1,36 @@
+Dataset -1
+
+The Online Retail dataset is a public dataset that contains transactional data of an online retailer based in the United Kingdom. 
+The dataset contains data from transactions that occurred between 01/12/2010 and 09/12/2011. 
+The retailer mainly sells unique all-occasion gifts. The dataset contains approximately 541,909 rows and eight columns.
+
+1. InvoiceNo: A unique identifier for each transaction.
+2. StockCode: A unique identifier for each product.
+3. Description: A brief description of each product.
+4. Quantity: The number of products purchased in each transaction.
+5. InvoiceDate: The date and time of each transaction.
+6. UnitPrice: The price of each product in GBP.
+7. CustomerID: A unique identifier for each customer.
+8. Country: The country where the transaction was made.
+
+Dataset -2
+
+The data is related to direct marketing campaigns of a Portuguese banking institution. The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be subscribed ('yes') or not ('no') subscribed.
+The classification goal is to predict if the client will subscribe (yes/no) a term deposit (variable y).
+Attibutes:
+1. age - age of a person
+2. job - type of job ('admin.', 'bluecollar', 'entrepreneur', 'housemaid', 'management', 'retired', 'selfemployed', 'services', 'student', 'technician', 'unemployed', 'unknown')
+3. marital - marital status ('divorced', 'married', 'single', 'unknown')
+4. education - ('basic.4y', 'basic.6y', 'basic.9y', 'high.school', 'illiterate', 'professional.course', 'university.degree', 'unknown')
+5. default - has credit in default? ('no', 'yes', 'unknown')
+6. housing - has housing loan? ('no', 'yes', 'unknown')
+7. loan - has personal loan? ('no', 'yes', 'unknown')
+8. contact - contact communication type ('cellular', 'telephone')
+9. month - last contact month of year
+10. day_of_week - last contact day of the week 
+11. duration	- last contact duration, in seconds.
+12. campaign	- number of contacts performed during this campaign and for this client 
+13. pdays - number of days that passed by after the client was last contacted from a previous campaign
+14. previous - number of contacts performed before this campaign and for this client
+15. poutcome - outcome of the previous marketing campaign ('failure','nonexistent','success')
+16. y - has the client subscribed a term deposit? ('yes','no')
